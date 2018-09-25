@@ -1,0 +1,5 @@
+//last_firstJohn
+            List<string> theJohns = MANCourse.Students
+                                        .Where(s => s.FirstName == "John")
+                                        .Select(s => s.LastName)
+                                        .ToList();
